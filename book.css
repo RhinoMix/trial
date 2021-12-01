@@ -7,10 +7,11 @@
 #head{
     margin-left: 50px;
 }
-body{
-    background: blueviolet;
-
-    /* size-adjust: 50%; */
+/* body{
+    background: rgb(255, 254, 121);
+} */
+#nicer{
+    width: auto;
 }
 #dan{
     color: coral;
@@ -28,4 +29,15 @@ body{
 }
 #V{
     font-family: OldEnglish Text MT;
+    font-size: 1.5em;
+}
+#code{
+    margin-left: 130px;
+    font-size: 2em;
+    margin-top: 5px;
+}
+#review{
+    align-items: baseline;
+    margin-top: 3%;
+    margin-left: 51px;
 }

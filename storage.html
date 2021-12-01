@@ -7,13 +7,107 @@
                     <a id="large" href="hex.html">Content</a>                         
            </div>
        </nav>  -->
-       <!-- <div class="container">
-               <h2 class="colored">background color : <span class="color">
-                  #f1f5f8
-               </span> </h2>           
-           </div> -->
     </main> 
+    <script>
+
+
+        // const colors = ['yellow', 'blue', 'rgb(255, 254, 121)', '#00e600'];
+// const btn = document.getElementById('btn');
+// const color = document.querySelector('.color');
+
+// btn.addEventListener('click', function(){
+//     //Get random number between 0 - 3 
+//     const randomNumber = getRandomNumber();
+//     console.log(randomNumber); 
+
+//     document.body.style.backgroundColor = colors[randomNumber];
+//     color.textContent = colors[randomNumber];
+// });
+
+// function getRandomNumber(){
+//     return Math.floor(Math.random()*colors.length);
+// };
+
+
+
+
+        //Practice
+//Spread operator:
+const ray =['Hi', 'there', 'my', 'name', 'is', 'Rayyan'];
+const ray2 =[...ray];
+//This puts the content of ray in ray2
+
+//Destructuring operator:
+const temp = {
+    today : 30,
+    tomorrow : 40,
+    next : 100
+}
+const  {today, tomorrow} = temp;
+//This means 'pick the contents of today and tomorrow in object temp' but keeps their names;
+//OR
+const {today : Yesterday, tomorrow : today} = temp;
+//This gets the content of today and tomorrow and assigns them to new objects with other names;
+//There is a way to pick on an object in an object:
+//Imagine next was an object now to pick on 100
+const {next: {100 : later}} = temo;
+//Array distructuring 
+const [a,b] = [1,2,3,4,5,6,7,8,9,0]
+console.log(a,b)
+//this brings the value of a,b as 1,2 coz a will be assigned the first value and b the next
+//but if you want to access a certain value, you :
+const [a,b,,,,c]
+//a remains 1, b remains 2 but c becomes 1,2,5
+    </script>
     <style>
+        /* #btn{
+    background-color: inherit;
+    font-family: elephant;
+    font-size: 13px;
+    cursor: pointer;
+}
+#small{
+    text-decoration: none;
+    font-family: Algerian;
+    color: gold;
+    margin-left: 5em;
+}
+#large{
+    text-decoration: none;
+    font-family: Algerian;
+    color: gold;
+}
+#cats{
+    text-decoration: none;
+    font-family: MV Boli;
+    background-color: gray;
+    opacity: 0.7;
+    color: rgb(255, 255, 0);
+    margin-left: 30px;
+    margin-right: 17em;
+    padding-left: 9em;
+    font-size: larger;
+    word-spacing: 3em;    
+}
+.container{
+    font-family: MV Boli;
+    background: gray transparent;
+}
+
+.container{
+   background: rgba(1, 1, 1, 0.3);
+   border-radius: 20px;
+   margin-left: 2em;
+   margin-right: 25em;
+   padding-left: 20px;
+}
+
+#scratch{
+    word-spacing: normal;
+} */
+
+
+
         /* #small{
     text-decoration: none;
     font-family: Algerian;
@@ -64,3 +158,40 @@
 
 } */
     </style>
+
+
+
+
+<!-- <!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./hex.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cover Story || Content</title>
+</head>
+<body>
+   
+    <nav id="cats">
+    <h4 id="scratch">Dan Brown</h4>
+    <h2 id="scratch">THE DA VINCI CODE</h2>  
+       <div class="nav-center">            
+                <a id="small" href="book.html"> Home</a>                            
+                <a id="large" href="hex.html">Content</a>                         
+       </div>
+   </nav> 
+
+
+   <main>
+       <div class="container">
+           <h2 class="colored">background color : <span class="color">
+              #f1f5f8
+           </span> </h2>           
+       </div>
+       <button class="btn btn-hero" id="btn">CLICK ME</button>
+    </main>   
+    <script src="./hex.js"></script>
+</body>
+</html> -->
