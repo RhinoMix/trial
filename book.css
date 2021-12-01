@@ -7,9 +7,9 @@
 #head{
     margin-left: 50px;
 }
-/* body{
-    background: rgb(255, 254, 121);
-} */
+body{
+    background-size: 400px 540px;
+}
 #nicer{
     width: auto;
 }
