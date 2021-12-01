@@ -1,0 +1,45 @@
+#btn{
+    background-color: inherit;
+    font-family: elephant;
+    font-size: 13px;
+    cursor: pointer;
+}
+#small{
+    text-decoration: none;
+    font-family: Algerian;
+    color: gold;
+    margin-left: 5em;
+}
+#large{
+    text-decoration: none;
+    font-family: Algerian;
+    color: gold;
+}
+#cats{
+    text-decoration: none;
+    font-family: MV Boli;
+    background-color: gray;
+    opacity: 0.7;
+    color: rgb(255, 255, 0);
+    margin-left: 30px;
+    margin-right: 17em;
+    padding-left: 9em;
+    font-size: larger;
+    word-spacing: 3em;    
+}
+.container{
+    font-family: MV Boli;
+    background: gray transparent;
+}
+
+.container{
+   background: rgba(1, 1, 1, 0.3);
+   border-radius: 20px;
+   margin-left: 2em;
+   margin-right: 25em;
+   padding-left: 20px;
+}
+
+#scratch{
+    word-spacing: normal;
+}

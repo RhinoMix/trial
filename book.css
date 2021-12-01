@@ -1,0 +1,31 @@
+#btn{
+    background-color: inherit;
+    font-family: elephant;
+    font-size: 13px;
+    cursor: pointer;
+}
+#head{
+    margin-left: 50px;
+}
+body{
+    background: blueviolet;
+
+    /* size-adjust: 50%; */
+}
+#dan{
+    color: coral;
+    margin-left: 130px;
+}
+#brown{
+    color: coral;
+    margin-left: 60px;
+    font-size: 1.9em;
+    margin-top: 5px;
+}
+#the{
+    margin-left: 130px;
+
+}
+#V{
+    font-family: OldEnglish Text MT;
+}
